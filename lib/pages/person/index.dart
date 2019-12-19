@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:demo/router/navigatorUtil.dart';
-class About extends StatefulWidget {
+class Person extends StatefulWidget {
   @override
   _SplashPagState createState() => _SplashPagState();
 }
 
-class _SplashPagState extends State<About> {
+class _SplashPagState extends State<Person> {
 
   @override
   void initState() {
@@ -18,10 +18,10 @@ class _SplashPagState extends State<About> {
     return Scaffold(
       body: Center(
         child: Container(
-          child: Column(
+           child: Column(
              mainAxisAlignment: MainAxisAlignment.center, 
             children: <Widget>[
-              Text('我about页面'),
+              Text('我person页面'),
               RaisedButton(
               child: Text('返回'),
               onPressed: () {
